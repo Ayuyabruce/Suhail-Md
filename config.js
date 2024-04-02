@@ -8,7 +8,7 @@ global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
 global.email ="samsamsun789@gmail.com"
-global.location="Lahore,Pakistan."
+global.location="Nairobi,kenya."
 
 
 global.mongodb= process.env.MONGODB_URI || ""
@@ -16,7 +16,7 @@ global.allowJids= process.env.ALLOW_JID || "null"
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "kenya/Nairobi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
@@ -26,7 +26,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 global.devs = "923184474176" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "+254114699755";
 
 
 
@@ -62,7 +62,7 @@ global.api_smd = "https://api-smd-1.vercel.app"
 global.scan = "https://suhail-md-vtsf.onrender.com/";
 
 
-global.SESSION_ID = process.env.SESSION_ID ||  "" ;
+global.SESSION_ID = process.env.SESSION_ID ||  "SUHAIL_15_23_04_02_ewogICJjcmVkcy5qc29uIjogIntcIm5vaXNlS2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiUUpxdytReVlNYy9TdHNGdHMyQW1pZHhzM29TRFpNZVkxLzY0alkzM3dWND1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIk9HM2k4QkF0UElLQkRqSkhHcjV3dWdlaWNvY211MTRhSjl3dk85NHYraHM9XCJ9fSxcInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyXCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiY0FYOHhNNUljZDhaV2R4elZUeWZKNEg5ZW15K3RraGY0ZDBmcXpVRVJIUT1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIlppVlhJeGQwZ3ZMei9iVVRFT2t3ZVdIcVlqNThUQWdQd2hOUG0xS3c2UmM9XCJ9fSxcInNpZ25lZElkZW50aXR5S2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiR0l0aXRZUkNuSG1BWWZiTzN2MHJOcEFaMGI0MG93UGNrcEVPNmdYbk8zdz1cIn0sXCJwdWJsaWNcIjp7XCJ0e…" ;
 
 
 module.exports = {
@@ -74,10 +74,10 @@ module.exports = {
   VERSION : process.env.VERSION || "1.3.1",
   caption : process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "Suhail-MD",
-  packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  author : process.env.PACK_AUTHER|| "Jbruce",
+  packname: process.env.PACK_NAME || "254bruce",
+  botname : process.env.BOT_NAME  || "virusxone",
+  ownername:process.env.OWNER_NAME|| "jessebruce",
 
 
   errorChat : process.env.ERROR_CHAT || "",
